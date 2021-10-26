@@ -10,7 +10,7 @@ const Login = () => {
 
   useEffect(() => {
     if (auth) history.push("/view-orders");
-  }, [auth]);
+  }, [auth, history]);
 
   return (
     <div className="main-body">
